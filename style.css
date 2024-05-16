@@ -1,0 +1,163 @@
+ main {
+
+    table,th, td{
+       border-bottom: 1px solid #000000;
+    border: 1px solid black !important;
+    border-collapse: collapse !important;
+ text-align: center !important;
+ margin: auto !important;
+ }
+
+}
+
+
+
+#gg{
+  text-align: center;
+}
+#peso{ 
+  text-align: center!important;
+ width:170px !important;
+
+ height:40px !important;
+
+ background-color:#ffffff!important;
+
+ border-radius: 30px!important;
+
+}
+#for{
+
+margin-top: 5%!important;
+text-align: center!important;
+}
+
+#altura{
+
+ width:170px!important;
+
+ height:40px!important ;
+
+ background-color:#ffffff!important;
+
+ border-radius: 30px !important;
+ text-align: center;
+
+ }
+
+#calcular{
+
+ 
+  width:100px !important;
+  height:40px !important;
+  margin-bottom: 2% !important;
+  
+  background-color:#ffffff!important;
+  border-radius: 30px !important;
+  background-color: blue !important;
+
+}
+#imc
+{
+  background-color: blue !important;
+  width:400px!important;
+  height:30px!important;
+  border-radius: 30px!important;
+  text-align: center!important;
+  margin-top: 5%!important;
+ margin: auto!important;
+ 
+}
+footer{
+ 
+  background-color: rgb(255, 102, 0)!important;
+  width:150px!important;
+  border-radius: 30px!important;
+  text-align: center!important;
+  height:60px!important;
+ margin-left: 41%!important;
+ margin-top: 3%!important;
+
+}
+
+/* Media queries para tornar o layout responsivo em dispositivos de diferentes tamanhos */
+
+/* iPhone SE */
+@media only screen and (max-width: 320px) {
+  /* Adaptações para iPhone SE */
+  /* Insira aqui suas adaptações */
+  
+ 
+}
+
+/* iPhone XR */
+@media only screen and (min-width: 321px) and (max-width: 414px) {
+  /* Adaptações para iPhone XR */
+  /* Insira aqui suas adaptações */
+}
+
+/* iPhone 12 Pro, iPhone 14 Pro Max */
+@media only screen and (min-width: 375px) and (max-width: 428px) {
+  /* Adaptações para iPhone 12 Pro e iPhone 14 Pro Max */
+  /* Insira aqui suas adaptações */
+}
+
+/* Pixel 7 */
+@media only screen and (min-width: 411px) and (max-width: 432px) {
+  /* Adaptações para Pixel 7 */
+  /* Insira aqui suas adaptações */
+}
+
+/* Samsung Galaxy S8+ */
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  /* Adaptações para Samsung Galaxy S8+ */
+  /* Insira aqui suas adaptações */
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  /* Adaptações para Samsung Galaxy S20 Ultra */
+  /* Insira aqui suas adaptações */
+}
+
+/* iPad Mini, iPad Air, iPad Pro */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Adaptações para iPad Mini, iPad Air, iPad Pro */
+  /* Insira aqui suas adaptações */
+}
+
+/* Surface Duo */
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  /* Adaptações para Surface Duo */
+  /* Insira aqui suas adaptações */
+}
+
+/* Galaxy Z Fold 5 */
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  /* Adaptações para Galaxy Z Fold 5 */
+  /* Insira aqui suas adaptações */
+}
+
+/* Asus Zenbook Fold */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Adaptações para Asus Zenbook Fold */
+  /* Insira aqui suas adaptações */
+}
+
+/* Samsung Galaxy A51/71 */
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  /* Adaptações para Samsung Galaxy A51/71 */
+  /* Insira aqui suas adaptações */
+}
+
+/* Nest Hub */
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  /* Adaptações para Nest Hub */
+  /* Insira aqui suas adaptações */
+}
+
+/* Nest Hub Max */
+@media only screen and (min-width: 720px) and (max-width: 1280px) {
+  /* Adaptações para Nest Hub Max */
+  /* Insira aqui suas adaptações */
+}

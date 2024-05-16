@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+ <header>
+    <div>
+        <form id="for">
+     
+            <label>altura:</label>
+            <input type="number" id="altura" > <br>
+
+            <label>peso :</label>
+            <input type="number" id="peso" > <br><br>
+           
+        </form>
+        <br>
+        <div id="gg"> 
+            <button      onclick="calcular()" id="calcular"style="color: aliceblu" >calcular</button> 
+        </div>
+        
+        
+    </div>
+    
+</header>
+<main>
+    <div id="imc" >
+        <p style="color: aliceblue;">veja a interpretaçao do imc</p>
+    </div>
+
+
+    <table  >
+        <tr>
+            <td>imc</td>
+            <td>classificaçao</td>
+            <td>obesidade(GRAU)</td>
+        </tr>
+        <tr>
+            <td>menor que 18,5</td>
+            <td>magreza</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>entre 18,5 e 24,8</td>
+            <td>normal</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>entre 25,0 e 29,9</td>
+            <td>sobrepeso</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>entre 30,0 e 39,9</td>
+            <td>obesidade</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>maior que 40,0</td>
+            <td>obesidade grave</td>
+            <td>3</td>
+        </tr>
+       
+        
+    </table>
+    
+</main>
+<footer>
+    <div>
+        <p style="color: aliceblue;">seu imc:</p>
+        <p id="resultado"></p>
+    </div>
+   
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function calcular() {
+        let peso = Number(document.getElementById("peso").value);
+        let altura = Number(document.getElementById("altura").value);
+        let resultado = peso / (altura * altura)
+        document.getElementById("resultado").innerHTML = resultado.toFixed(2);
+    }
+</script>
+
+</html>
